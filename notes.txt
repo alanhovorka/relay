@@ -1,0 +1,388 @@
+Buttons for portfolio
+
+
+<div class="col-sm-12">
+				<div class="btn-group btn-group-justified" role="group">
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="data1" role="button" target="_blank">Data work</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="enterprise1" role="button" target="_blank">Reporting</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="coding1" role="button" target="_blank">ssss</a>
+				</div>
+			</div>
+			<!--
+			<div class="col-sm-12">
+				<div class="btn-group btn-group-justified" role="group">
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="data2" role="button" target="_blank">Data work</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="enterprise2" role="button" target="_blank">Reporting</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="coding2" role="button" target="_blank">ssss</a>
+				</div>
+			</div>
+			
+			<div class="col-sm-12">
+				<div class="btn-group btn-group-justified" role="group">
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="data3" role="button" target="_blank">Data work</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="enterprise3" role="button" target="_blank">Reporting</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="coding3" role="button" target="_blank">ssss</a>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<div class="btn-group btn-group-justified" role="group">
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="data4" role="button" target="_blank">Data work</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="enterprise4" role="button" target="_blank">Reporting</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="coding4" role="button" target="_blank">ssss</a>
+				</div>
+			</div>
+
+			<div class="col-sm-6">
+				<div class="btn-group btn-group-justified" role="group">
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="data5" role="button" target="_blank">Data work</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="enterprise5" role="button" target="_blank">Reporting</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="coding5" role="button" target="_blank">ssss</a>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<div class="btn-group btn-group-justified" role="group">
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="data6" role="button" target="_blank">Data work</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="enterprise6" role="button" target="_blank">Reporting</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="coding6" role="button" target="_blank">ssss</a>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<div class="btn-group btn-group-justified" role="group">
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="data7" role="button" target="_blank">Data work</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="enterprise7" role="button" target="_blank">Reporting</a>
+					<a href="#" class="btn btn-block btn-md btn-group-cus text-uppercase" id="coding7" role="button" target="_blank">ssss</a>
+				</div>
+			</div>			
+			-->
+
+
+Styling for portfolio buttons
+
+.btn-group-cus {
+	color: black;
+	background-color: white;
+	border-width: 1px;
+	border-color: #eee;
+	border-radius: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+/*styling for thumbnail tags and portfolio sorting
+	color: #C05A40; #9F2D1B*/
+
+#data1 {
+	color: #9F2D1B;
+}
+
+#data1:hover {
+	color: white;
+	background-color: #C05A40;
+	border-top-color: #C05A40;
+	border: none;
+}
+
+#enterprise1 {
+	color: #147632;
+}
+
+#enterprise1:hover {
+	color: white;
+	background-color: #2A9149;
+	border-top-color: #2A9149;
+	border: none;
+}
+
+#coding1 {
+	color: #1D2D6C;
+}
+#coding1:hover {
+	color: white;
+	background-color: #324285;
+	border-top-color: #324285;
+	border: none;
+}
+
+
+#data2 {
+	color: #9F2D1B;
+	color: white;
+	background-color: #9F2D1B;
+	border-top-color: #9F2D1B;
+	border: none;
+}
+
+#enterprise2 {
+	color: #147632;
+	color: white;
+	background-color: #147632;
+	border-top-color: #147632;
+	border: none;
+}
+
+#coding2 {
+	color: #1D2D6C;
+		color: white;
+	background-color: #1D2D6C;
+	border-top-color: #1D2D6C;
+	border: none;
+}
+
+
+#data3 {
+	color: #9F2D1B;
+}
+
+#data3:hover {
+	color: white;
+	background-color: #9F2D1B;
+	border-top-color: #9F2D1B;
+	border: none;
+}
+
+#enterprise3 {
+	color: #147632;
+}
+
+#enterprise3:hover {
+	color: white;
+	background-color: #147632;
+	border-top-color: #147632;
+	border: none;
+}
+
+#coding3 {
+	color: #1D2D6C;
+}
+#coding3:hover {
+	color: white;
+	background-color: #1D2D6C;
+	border-top-color: #1D2D6C;
+	border: none;
+}
+
+#data4 {
+	color: #9F2D1B;
+	border: none;
+}
+
+#data4:hover {
+	color: white;
+	background-color: #9F2D1B;
+	border-top-color: #9F2D1B;
+	border: none;
+}
+
+#enterprise4 {
+	color: #147632;
+	border: none;	
+}
+
+#enterprise4:hover {
+	color: white;
+	background-color: #147632;
+	border-top-color: #147632;
+	border: none;
+}
+
+#coding4 {
+	color: #1D2D6C;
+	border: none;
+}
+#coding4:hover {
+	color: white;
+	background-color: #1D2D6C;
+	border-top-color: #1D2D6C;
+	border: none;
+}
+
+
+#data5 {
+	color: #9F2D1B;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		border-right-width: 0px;
+		border-left: 0px;
+	border-top-color: #9F2D1B;
+	border-bottom-color: #9F2D1B;
+	
+}
+
+#enterprise5 {
+	color: #147632;
+	border-top-width: 1px;
+		border-bottom-width: 1px;
+		border-right-width: 0px;
+		border-left: 0px;
+	border-top-color: #147632;
+	border-bottom-color: #147632;
+}
+
+#coding5 {
+	color: #1D2D6C;
+	border-top-width: 1px;
+		border-bottom-width: 1px;
+		border-right-width: 0px;
+		border-left: 0px;
+	border-top-color: #1D2D6C;
+	border-bottom-color: #1D2D6C;
+}
+
+#data6 {
+	margin-top: 20px;
+	color: #9F2D1B;
+		border-top-width: 1px;
+		border-bottom-width: 0px;
+		border-right-width: 0px;
+		border-left: 0px;
+	border-top-color: #9F2D1B;
+	
+}
+#data6:hover {
+	background-color: #DCDCDC;
+}
+
+#enterprise6 {
+	color: #147632;
+	border-top-width: 1px;
+		border-bottom-width: 0px;
+		border-right-width: 0px;
+		border-left: 0px;
+	border-top-color: #147632;
+	border-bottom-color: #147632;
+}
+
+#coding6 {
+	color: #1D2D6C;
+	border-top-width: 1px;
+		border-bottom-width: 0px;
+		border-right-width: 0px;
+		border-left: 0px;
+	border-top-color: #1D2D6C;
+	border-bottom-color: #1D2D6C;
+}
+
+
+#data7 {
+	margin-top: 20px;
+	color: #9F2D1B;
+		border-top-width: 0px;
+		border-bottom-width: 1px;
+		border-right-width: 0px;
+		border-left: 0px;
+	border-bottom-color: #9F2D1B;
+	
+}
+
+#enterprise7 {
+	color: #147632;
+	border-top-width: 0px;
+		border-bottom-width: 1px;
+		border-right-width: 0px;
+		border-left: 0px;
+	border-top-color: #147632;
+	border-bottom-color: #147632;
+}
+
+#coding7 {
+	color: #1D2D6C;
+	border-top-width: 0px;
+		border-bottom-width: 1px;
+		border-right-width: 0px;
+		border-left: 0px;
+	border-top-color: #1D2D6C;
+	border-bottom-color: #1D2D6C;
+}
+
+
+
+#feature {
+	color: #C49A38
+}
+
+#watchdog {
+	color: #9F5D1B;
+}
+
+#records {
+	color: #FFC78F;
+}
+
+#other {
+	color: #74C3D9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Fair use/creative common image sources:
+https://www.lib.umn.edu/copyright/fairthoughts
+https://pixabay.com/
+https://commons.wikimedia.org/wiki/Main_Page
+https://www.nypl.org/research/collections/digital-collections/public-domain
+https://www.flickr.com/people/britishlibrary/
+http://publicdomainreview.org/collections/
+https://en.wikipedia.org/wiki/Wikipedia:Public_domain_image_resources
+http://gisgeography.com/
+http://guides.library.harvard.edu/Finding_Images
+https://www.olympic.org/news/media-resources 
+
+https://secure.registration.olympic.org/en/faq/category/detail/29/id/223#faq_223
+
+
+Academic research sources on best practices (Interviews, Q+A's, etc.):
+https://source.opennews.org/en-US/articles/anatomy-living-apart-map/
+How a Map That Wasn’t a Map Became a Map
+https://www.propublica.org/nerds/item/mapping-state-millions
+When maps shouldn't be maps
+http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/
+MAPPING THE HISTORY OF STREET NAMES
+https://source.opennews.org/en-US/articles/mapping-history-street-names/
+https://library.olympic.org/Default/presentation-generale.aspx
+https://library.olympic.org/Default/accueil.aspx
+https://library.olympic.org/
+https://stillmed.olympic.org/media/Document%20Library/OlympicOrg/Olympic-Studies-Centre/About-us/EN-OSCs-in-the-world.pdf
+
+Book: Berlin Games How Hitler stole the Olympic Dream - Guy Walters, check library
+http://www.starkcenter.org/welcome/
+
+
+https://www.olympic.org/documents/document-set-teachers-the-main-olympic-topics
+
+Inspiration:
+Where Are the Foreclosure Deal Millions Going in Your State?
+https://www.propublica.org/special/where-are-the-foreclosure-deal-millions-going
+State-by-State: Underground Injection Wells
+http://projects.propublica.org/graphics/underground-injection-wells
+North Dakota Spills
+https://www.propublica.org/special/north-dakota-spills
+Living Apart: How the Government Betrayed a Landmark Civil Rights Law
+https://www.propublica.org/article/living-apart-how-the-government-betrayed-a-landmark-civil-rights-law
+http://projects.propublica.org/graphics/city-maps
+http://projects.jsonline.com/news/2016/12/11/the-price-of-being-wrong.html
+
+https://www.olympic.org/documents
+https://secure.registration.olympic.org/en/faq/category/detail/16
+https://secure.registration.olympic.org/en/faq/category/detail/22
+
+Possible tech: 
+Simple Tiles
+http://propublica.github.io/simple-tiles/
+map.rb
+https://gist.github.com/thejefflarson/4226247
+Sample Map.js D3
+http://code.minnpost.com/simple-map-d3/
+http://code.minnpost.com/tulip/
+JavaScript: Loop through a Google Spreadsheet
+http://journocode.com/2017/01/09/javascript-loop-google-spreadsheet/
+Material design bootstrap
+https://mdbootstrap.com/
+http://fezvrasta.github.io/bootstrap-material-design/#fileinput
