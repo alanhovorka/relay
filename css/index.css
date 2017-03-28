@@ -1,0 +1,194 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+video {
+	width: 100%;
+}
+.grid {
+  max-width: 100%;
+}
+
+.vidcontainer {
+	padding: 0;
+	margin: 0,0,0,10px;
+	position: relative;
+}
+
+.overlay {
+	background: rgba(0,0,0,0);
+	position: absolute;
+	top: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+@media screen and (max-width: 600px)  
+{.grid-sizer, .grid-item {
+	width: 100%; 
+	min-height: 1px;
+	margin-left: 12px;
+	margin-right: 12px;}
+
+}
+@media screen and (min-width: 1200px) 
+{.grid-sizer, .grid-item {
+	width: 30%; 
+	min-height: 1px;
+	margin-left: 12px;
+	margin-right: 12px;}
+	
+}
+
+@media screen and (min-width: 601px) and (max-width: 1199px) {
+
+	.grid-sizer, .grid-item {
+
+	width: 28%; 
+	min-height: 1px;
+	margin-left: 12px;
+	margin-right: 12px;
+	}
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) 
+{
+	.overlay {
+	background: rgba(0,0,0,0);
+	position: absolute;
+	top: 75%;
+	display: flex;
+	float: left;
+	color: white;
+	}
+
+}
+
+@media screen and (min-width: 692px) and (max-width: 991px) {
+
+	.overlay {
+	background: rgba(0,0,0,0);
+	position: absolute;
+	top: 85%;
+	display: flex;
+	float: left;
+	color: white;
+	}
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 691px) {
+
+	.overlay {
+	background: rgba(0,0,0,0);
+	position: absolute;
+	top: 85%;
+	display: flex;
+	float: left;
+	color: white;
+	}
+
+}
+
+
+@media screen and (min-width: 568px) and (max-width: 600px) {
+
+	.overlay {
+	background: rgba(0,0,0,0);
+	position: absolute;
+	top: 85%;
+	display: flex;
+	float: left;
+	color: white;
+	}
+
+}
+
+
+@media screen and (max-width: 567px)  
+{
+	.overlay {
+	background: rgba(0,0,0,0);
+	position: relative;
+	display: flex;
+	float: left;
+	color: black;
+	}
+}
+
+.grid-item--width2 { width: 100%; }
+.grid-sizer--width2 {
+	width: 100%;
+}
+
+
+.shadow:hover {
+		box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.shadow {
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.shadow2 {
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.shadow3 {
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+
+}
+
+.shadow4 {
+	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+
+}
+
+.shadow5 {
+		box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+@media screen and (min-width: 992px) {
+	.headline {
+	font-family: 'Playfair Display', serif;
+	font-size: 100px;
+	letter-spacing: -2.5px;
+	}
+	.photobanner {
+		display: none;
+	}
+	.subhead {
+		font-family: 'Playfair Display', serif;
+		font-size: 50px;
+		letter-spacing: -.5px;
+		color: #7e7e7e;
+		line-height: 45px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.headline {
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	letter-spacing: -2.5px;
+	}
+	.subhead {
+		font-family: 'Playfair Display', serif;
+		font-size: 30px;
+		letter-spacing: -.5px;
+		color: #7e7e7e;
+		line-height: 30px;
+	}
+	.videobanner {
+		display: none;	
+	}
+}
