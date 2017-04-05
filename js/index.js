@@ -34,18 +34,6 @@ $( window ).resize(function() {
 });
 
 
-/*Needs to call anytime there is scroll or something, maybe on screen play 
-$(window).scroll(function() {
-			var scroll = $(window).scrollTop();
-			if (scroll >= 700) {
-				 $('video').get(0).pause();}
-				else {
-					$('video').get(0).play();
-				}
-							});
-*/
-
-
 var videos = document.getElementsByTagName("video"),
 fraction = 0.7;
 function checkScroll() {
