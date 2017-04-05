@@ -1,5 +1,3 @@
-// external js: masonry.pkgd.js
-
 var msnry = new Masonry( '.grid', {
   itemSelector: '.grid-item',
   columnWidth: '.grid-sizer',
@@ -10,6 +8,18 @@ var msnry = new Masonry( '.grid', {
 $(window).scroll(function(){
     $(".topfade").css("opacity", 1 - $(window).scrollTop() / 500);
   });
+
+
+$(function() {
+  if ($(window).width() <= 599) {
+    $("video").attr("src", "media/cub.webm");
+  }
+  else {
+  	$("video").attr("src", "media/test.webm");
+
+  }
+});
+
 $(function() {
     $(window).scroll( function(){
     

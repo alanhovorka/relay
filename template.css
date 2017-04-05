@@ -2,6 +2,48 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #3d7b8d;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3d7b8d;
+}
+
+a:active {
+  text-decoration: none;
+  color: #3d7b8d;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #3d7b8d;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #3d7b8d;
+}
+
+
+
+
+
+
+
+
+
 .grid {
   max-width: 100%;
 }
