@@ -12,11 +12,24 @@ $(window).scroll(function(){
 
 $(function() {
   if ($(window).width() <= 599) {
-    $("video").attr("src", "media/cub.webm");
+    $("video").attr("src", "media/cub.webm")
+    $("video").attr("poster", "");
   }
   else {
   	$("video").attr("src", "media/test.webm");
+  	$("video").attr("poster", "");
 
+  }
+});
+
+$( window ).resize(function() {
+  if ($(window).width() <= 599) {
+    $("video").attr("src", "media/cub.webm")
+    $("video").attr("poster", "");
+  }
+  else {
+  	$("video").attr("src", "media/test.webm");
+  	$("video").attr("poster", "");
   }
 });
 
