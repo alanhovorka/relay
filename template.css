@@ -36,7 +36,17 @@ a:link, a:visited {
   color: #3d7b8d;
 }
 
-
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
 
 
 
