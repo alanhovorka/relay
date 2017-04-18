@@ -8,27 +8,27 @@ video {
 
 a {
   text-decoration: none;
-  color: #3d7b8d;
+  color: #FEBE10;
 }
 
 a:hover {
   text-decoration: none;
-  color: #3d7b8d;
+  color: #FEBE10;
 }
 
 a:active {
   text-decoration: none;
-  color: #3d7b8d;
+  color: #FEBE10;
 }
 
 a:visited {
   text-decoration: none;
-  color: #3d7b8d;
+  color: #FEBE10;
 }
 
 a:link, a:visited {
   text-decoration: none;
-  color: #3d7b8d;
+  color: #FEBE10;
 }
 
 figcaption {
@@ -99,8 +99,6 @@ padding-right: 10px;
 .btn-custom {
 	color: black;
 	background-color: white;
-	border-top-width: 1px;
-	border-top-color: #eee;
 	border-radius: 0;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -108,8 +106,8 @@ padding-right: 10px;
 
 .btn-custom:hover {
 	color: white;
-	background-color: #3d7b8d;
-	border-top-color: #3d7b8d;
+	background-color: #FEBE10;
+	border-top-color: #FEBE10;
 	
 }
 
@@ -315,7 +313,7 @@ padding-right: 10px ;
 		font-family: 'Playfair Display', serif;
 		font-size: 50px;
 		letter-spacing: -.5px;
-		color: #7e7e7e;
+		color: #C0C2C4;
 		line-height: 45px;
 	}
 	.smallpic {
@@ -340,7 +338,7 @@ padding-right: 10px ;
 		font-family: 'Playfair Display', serif;
 		font-size: 30px;
 		letter-spacing: -.5px;
-		color: #7e7e7e;
+		color: #C0C2C4;
 		line-height: 30px;
 	}
 	.aside {
