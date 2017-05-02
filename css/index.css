@@ -135,7 +135,9 @@ padding-right: 10px;
 		line-height: 45px;
 	}
 
-
+.modalpic {
+	width: 100%;
+}
 
 @media screen and (max-width: 600px)  
 {
@@ -391,8 +393,6 @@ padding-right: 10px ;
 	.creditsdesktop {
 	display: none;
 	}
-	.videoaside {
-	display: none;
-	}
+
 
 }
