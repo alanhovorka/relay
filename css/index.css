@@ -433,3 +433,144 @@ padding-right: 10px ;
 
 
 }
+
+
+/* shortest relay css*/
+.g-artboard {
+	margin:0 auto;
+				}
+#g-shortest_relays_history_page-Artboard_1{
+				position:relative;
+				overflow:hidden;
+				width:316px;
+			}
+.g-aiAbs{
+				position:absolute;
+			}
+.g-aiImg{
+				display:block;
+				width:100% !important;
+			}
+#g-shortest_relays_history_page-Artboard_1 p{
+				font-family:nyt-franklin,arial,helvetica,sans-serif;
+				font-size:13px;
+				line-height:18px;
+				margin:0;
+			}
+#g-shortest_relays_history_page-Artboard_1 .g-aiPstyle0 {
+				font-family: 'Playfair Display', serif;
+				font-size:16px;
+				line-height:19px;
+				font-weight:700;
+				color:#000000;
+			}
+#g-shortest_relays_history_page-Artboard_1 .g-aiPstyle1 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:10px;
+				font-weight:400;
+				color:#000000;
+			}
+#g-shortest_relays_history_page-Artboard_1 .g-aiPstyle2 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:400;
+				text-align:right;
+				color:#000000;
+			}
+#g-shortest_relays_history_page-Artboard_1 .g-aiPstyle3 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:700;
+				color:#000000;
+			}
+#g-shortest_relays_history_page-Artboard_1 .g-aiPstyle4 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:400;
+				text-align:center;
+				color:#000000;
+			}
+#g-shortest_relays_history_page-Artboard_1 .g-aiPstyle5 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:400;
+				color:#000000;
+			}
+.g-aiPtransformed p { white-space: nowrap; }
+
+/*longest relay*/
+#g-longest_relays_history_page-Artboard_1{
+				position:relative;
+				overflow:hidden;
+				width:316px;
+			}
+.g-aiAbs{
+				position:absolute;
+			}
+.g-aiImg{
+				display:block;
+				width:100% !important;
+			}
+#g-longest_relays_history_page-Artboard_1 p{
+				font-family:nyt-franklin,arial,helvetica,sans-serif;
+				font-size:13px;
+				line-height:18px;
+				margin:0;
+			}
+#g-longest_relays_history_page-Artboard_1 .g-aiPstyle0 {
+				font-family: 'Playfair Display', serif;
+				font-size:16px;
+				line-height:19px;
+				font-weight:700;
+				color:#000000;
+			}
+#g-longest_relays_history_page-Artboard_1 .g-aiPstyle1 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:400;
+				text-align:right;
+				color:#000000;
+			}
+			#g-longest_relays_history_page-Artboard_1 .g-aiPstyle2 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:700;
+				color:#000000;
+			}
+			#g-longest_relays_history_page-Artboard_1 .g-aiPstyle3 {
+				font-family: 'Roboto', sans-serif;
+				font-size:8px;
+				line-height:10px;
+				font-weight:400;
+				color:#000000;
+			}
+			#g-longest_relays_history_page-Artboard_1 .g-aiPstyle4 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:400;
+				text-align:center;
+				color:#000000;
+			}
+			#g-longest_relays_history_page-Artboard_1 .g-aiPstyle5 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:400;
+				color:#000000;
+			}
+			#g-longest_relays_history_page-Artboard_1 .g-aiPstyle6 {
+				font-family: 'Roboto', sans-serif;
+				font-size:8px;
+				line-height:9px;
+				font-weight:400;
+				color:#000000;
+			}
+			.g-aiPtransformed p { white-space: nowrap; }
