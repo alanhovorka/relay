@@ -139,6 +139,25 @@ padding-right: 10px;
 	width: 100%;
 }
 
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(254, 190, 16, .5);
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: none;
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: none;
+}
+
 @media screen and (max-width: 600px)  
 {
 	.grid-sizer {
