@@ -135,6 +135,13 @@ padding-right: 10px;
 		line-height: 45px;
 	}
 
+.subhead3 {
+		font-family: 'Playfair Display', serif;
+		font-size: 30px;
+		letter-spacing: -.5px;
+		line-height: 45px;
+	}
+
 .modalpic {
 	width: 100%;
 }
@@ -157,6 +164,45 @@ padding-right: 10px;
   vertical-align: bottom;
   border-bottom: none;
 }
+
+.grid-item--width2 { 
+	width: 100%; 
+	}
+
+
+.shadow:hover {
+		box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.shadow {
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.shadow2 {
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.shadow3 {
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+
+}
+
+.shadow4 {
+	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+
+}
+
+.shadow5 {
+		box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+.recordlinks {
+	font-size: 18px;
+}
+
+
+/*Media queries*/
 
 @media screen and (max-width: 600px)  
 {
@@ -206,7 +252,6 @@ padding-right: 0;
 		width:150px;
 	}	
 }
-
 
 
 
@@ -313,39 +358,9 @@ padding-right: 10px ;
 
 
 
-.grid-item--width2 { 
-	width: 100%; 
-	}
 
 
-.shadow:hover {
-		box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
-}
-
-.shadow {
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-}
-
-.shadow2 {
-	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
-}
-
-.shadow3 {
-	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
-
-}
-
-.shadow4 {
-	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
-
-}
-
-.shadow5 {
-		box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
-
-}
-
-
+/*Media queries*/
 @media screen and (min-width: 992px) {
 	.headline {
 	font-family: 'Playfair Display', serif;
@@ -435,7 +450,7 @@ padding-right: 10px ;
 }
 
 
-/* shortest relay css*/
+/* AI2HTML shortest relay css*/
 .g-artboard {
 	margin:0 auto;
 				}
@@ -503,7 +518,7 @@ padding-right: 10px ;
 			}
 .g-aiPtransformed p { white-space: nowrap; }
 
-/*longest relay*/
+/*AI2HTML longest relay*/
 #g-longest_relays_history_page-Artboard_1{
 				position:relative;
 				overflow:hidden;
