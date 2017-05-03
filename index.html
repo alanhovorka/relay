@@ -4,14 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="#">
-		<meta name="author" content="#">
-		<meta property="og:title" content="#"/>
-		<meta property="og:description" content="#"/>
-		<meta property="og:url" content="#" />
-		<meta property="og:image" content="assets/#"/>
+		<meta name="description" content="Using data to help tell Olympic torch relay's story across time">
+		<meta name="author" content="Alan Hovorka">
+		<meta property="og:title" content="Carrying the flame"/>
+		<meta property="og:description" content="Using data to help tell Olympic torch relay's story across time"/>
+		<meta property="og:url" content="https://relays.alanhovorka.com"/>
+		<meta property="og:image" content="media/flame_preview.png"/>
 		<link rel="icon" href="media/favicon.ico">
-		<title></title>
+		<title>Carrying the flame</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
@@ -24,50 +24,45 @@
 	<body>
 	<script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.js"></script>
 	<div class="col-sm-12 vidcontainer topfade">
-		<video class="videobanner topfade" loop muted autoplay poster="">
-			<source src="" type="video/webm">
-
+		<video class="videobanner topfade" src="" type="video/webm" loop muted autoplay playsinline style="">
 		</video>
-
+		<div style='position:relative;padding-bottom:57%' id="vidj"><iframe src='' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+		<!--webm link for reference https://gfycat.com/TenseFirmGrayling-->
 	</div>
 
 	<div class="container">
 		<div class="col-sm-10 col-sm-offset-1">
-			<span class="headline">Olympic torch relay</span><br>
-			<span class="subhead">Lorem ipsum dolor sit amet, consectetuer adipiscing</span>
+			<span class="headline">Carrying the flame</span><br>
+			<span class="subhead">Using data to help tell the Olympic torch relay's story across time</span>
 			<hr>
 		</div>
 
  <!-- Change styling of break line once we have a color palate-->
-			<div class="row">
-		
-				<div class="col-sm-8 col-sm-offset-2 introfix">
-					
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 introfix">
 					<p class="bodycopy">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
 				</div>
-
-
 			</div>	
 	</div>
 
 
-				<div class="col-sm-8 col-sm-offset-2 grid-fix"> <!--Could possibly drop this.-->  
-					<div class="grid"> <!-- begin row, masonry component--> 
+	<div class="col-sm-8 col-sm-offset-2 grid-fix"> <!--Could possibly drop this.-->  
+		<div class="grid"> <!-- begin row, masonry component--> 
 						<div class="grid-sizer"></div>	<!-- necessary masonry component--> 
 						<div class="gutter-sizer"></div>
 
 						<div class="grid-item grid-item--width2">
 							<div class="shadow" style="display: inline-block; width: 100%;">
 								<div id="thumbnail-custom" class="thumbnail thumbnail-custom">
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" >
+									<a href="relay_history.html" target="_blank">
 										<img src="media/Olympictorche-Berlin.jpg" alt="...">
 									</a>
 									<div id="caption" class="caption">
 
-										<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view">
+										<a href="relay_history.html" target="_blank">
 											<h3>A relay's legacy</h3>
 										</a>
-										<p>The Olympic torch relay is no stranger to trouble. Even widely celebrated traditions can rise out of controversial foundings. </p>
+										<p>How a core tradition of the Olympics rose out of Nazi Germany. The Olympic torch relay is no stranger to trouble. Even widely celebrated traditions can rise out of controversial foundings. </p>
 										<p class="photo-cred">Photo: <a href="http://www.stanford.edu/dept/german/berlin_class/archives/glossary_olympics1936.html">standford.edu</a>  </p>
 
 
@@ -75,7 +70,7 @@
 									<div id="btn-cus">
 									</div>
 								</div>
-										<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" class="btn btn-block btn-md btn-custom text-uppercase" role="button">View more</a> 
+										<a href="relay_history.html" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
 									
 							</div>
 						</div>
@@ -83,177 +78,146 @@
 						<div class="grid-item grid-item--width3">
 							<div class="shadow">
 								<div class="thumbnail thumbnail-custom">
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" >
+									<a href="numbers.html" target="_blank">
 										<img src="assets/respect.jpg" alt="...">
 									</a>
 									<div class="caption">
 
-										<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view">
-											<h3>Despite progress, women underpresented as torchbearers</h3>
-										</a>
-										<p>Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-										<p class="photo-cred">Photo: FIND PICS OF FEMALE RUNNERS, BIG NAMES</p>
-									</div>
-								</div>
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" class="btn btn-block btn-md btn-custom text-uppercase" role="button">View more</a> 
-							</div>
-						</div>
-
-						<div class="grid-item grid-item--width3">
-							<div class="shadow">
-								<div class="thumbnail thumbnail-custom">
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" >
-										<img src="assets/respect.jpg" alt="...">
-									</a>
-									<div class="caption">
-
-										<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view">
+										<a href="numbers.html" target="_blank">
 											<h3>Going the distance</h3>
 										</a>
 										<p>How many thousands of miles have torch bearers trekked? How many days has the relay occupied in history since it's founding? SOMETHING CONVEYING THE BY THE NUMBERS STUFF</p>
 										<p class="photo-cred">Photo: Dave Weathwax | The Herald</p>
 									</div>
 								</div>
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" class="btn btn-block btn-md btn-custom text-uppercase" role="button">View more</a> 
+									<a href="numbers.html" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
 							</div>
 						</div>
-					</div>
-				</div>
+
+						<div class="grid-item grid-item--width3">
+							<div class="shadow">
+								<div class="thumbnail thumbnail-custom">
+									<a href="relay-and-gender.html" target="_blank">
+										<img src="assets/respect.jpg" alt="...">
+									</a>
+									<div class="caption">
+
+										<a href="relay-and-gender.html" target="_blank">
+											<h3>Despite progress, women underpresented as torchbearers</h3>
+										</a>
+										<p>Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+										<p class="photo-cred">Photo: FIND PICS OF FEMALE RUNNERS, BIG NAMES</p>
+									</div>
+								</div>
+									<a href="relay-and-gender.html" target="_blank" class="btn btn-block btn-md btn-custom text-uppercase" role="button">View more</a> 
+							</div>
+						</div>
 
 
+		</div>
+	</div>
 
-				<div class="col-sm-8 col-sm-offset-2 grid-fix grid-fix2">
-					<div class="grid2">
+	<div class="col-sm-8 col-sm-offset-2 grid-fix grid-fix2">
+		<div class="grid2">
 						<div class="grid-sizer2"></div>
 						<div class="gutter-sizer2"></div>	
-						<div class="grid-item2">
-							<div class="shadow">
-								<div class="thumbnail thumbnail-custom">
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" >
-										<img src="assets/respect.jpg" alt="...">
-									</a>
-									<div class="caption">
-
-										<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view">
-											<h3>Transporting the torch</h3>
-										</a>
-										<p>Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-										<p class="photo-cred">Photo: Dave Weathwax | The Herald</p>
-									</div>
-								</div>
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" class="btn btn-block btn-md btn-custom text-uppercase" role="button">View more</a> 
-							</div>
-						</div>
+						
 
 						<div class="grid-item2">
 							<div class="shadow">
 								<div class="thumbnail thumbnail-custom">
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" >
-										<img src="assets/respect.jpg" alt="...">
-									</a>
+
 									<div class="caption">
 
-										<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view">
-											<h3>Timeline</h3>
-										</a>
-										<p>Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-										<p class="photo-cred">Photo: Dave Weathwax | The Herald</p>
-									</div>
-								</div>
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" class="btn btn-block btn-md btn-custom text-uppercase" role="button">Read more</a> 
-							</div>
-						</div>
-
-						<div class="grid-item2">
-							<div class="shadow">
-								<div class="thumbnail thumbnail-custom">
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" >
-										<img src="assets/respect.jpg" alt="...">
-									</a>
-									<div class="caption">
-
-										<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view">
-											<h3>What other's wrote</h3>
+										<a href="records.html" target="_blank">
+											<h3>What other's wrote - Repository</h3>
 										</a>
 										<p>A comprehensive list of columns, media, research docs and info useful for covering the relay in a more meaningful, interesting way. </p>
-										<p class="photo-cred">Photo: Dave Weathwax | The Herald</p>
 									</div>
 								</div>
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" class="btn btn-block btn-md btn-custom text-uppercase" role="button">Read more</a> 
+									<a href="records.html" target="_blank" class="btn btn-block btn-md btn-custom text-uppercase" role="button">Read more</a> 
 							</div>
 						</div>
 
 						<div class="grid-item2">
 							<div class="shadow">
 								<div class="thumbnail thumbnail-custom">
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" >
-										<img src="assets/respect.jpg" alt="...">
+									<a href="https://github.com/alanhovorka/relay/blob/master/torch_relay_data_version1_00.xlsx" target="_blank">
+										<img src="media/data_screengrab.jpg">
 									</a>
 									<div class="caption">
 
-										<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view">
+										<a href="https://github.com/alanhovorka/relay/blob/master/torch_relay_data_version1_00.xlsx" target="_blank">
 											<h3>Get the data</h3>
 										</a>
-										<p>Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-										<p class="photo-cred">Photo: Dave Weathwax | The Herald</p>
+										<p>I've posted the dataset used in this project online on my Github. If you use it, give me a shout out. See an issue in it? Post a new issue on the Github repo or <a href="feedback.html">send me an email</a>.<br>Data version: 1.00</p>
 									</div>
 								</div>
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" class="btn btn-block btn-md btn-custom text-uppercase" role="button">View more</a> 
+									<a href="https://github.com/alanhovorka/relay/blob/master/torch_relay_data_version1_00.xlsx" class="btn btn-block btn-md btn-custom text-uppercase" role="button">View more</a> 
 							</div>
 						</div>
 
 						<div class="grid-item2">
 							<div class="shadow">
 								<div class="thumbnail thumbnail-custom">
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" >
-										<img src="assets/respect.jpg" alt="...">
-									</a>
+
 									<div class="caption">
 
-										<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view">
+										<a href="about.html" target="_blank">
 											<h3>About the project</h3>
 										</a>
-										<p>How this project came to be.</p>
-										<p class="photo-cred">Photo: Dave Weathwax | The Herald</p>
+										<p>How this project came to be and the people that made it happen.</p>
 									</div>
 								</div>
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" class="btn btn-block btn-md btn-custom text-uppercase" role="button">Read more</a> 
+									<a href="about.html" target="_blank" class="btn btn-block btn-md btn-custom text-uppercase" role="button">Read more</a> 
 							</div>
 						</div>
 
 						<div class="grid-item2">
 							<div class="shadow">
 								<div class="thumbnail thumbnail-custom">
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" >
-										<img src="assets/respect.jpg" alt="...">
-									</a>
 									<div class="caption">
 
-										<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view">
+										<a href="feedback.html" target="_blank">
 											<h3>Submit feedback</h3>
 										</a>
 										<p>See an error, something I missed in my reporting or just want to tell me how much you like this work? Let me know! <br> This is an ongoing project that I will periodically update with new data visualizations and information.</p>
-										<p class="photo-cred">Photo:</p>
 									</div>
 								</div>
-									<a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIWUJtZXl4dlZrR3c/view" class="btn btn-block btn-md btn-custom text-uppercase" role="button">Read more</a> 
+									<a href="feedback.html" target="_blank" class="btn btn-block btn-md btn-custom text-uppercase" role="button">Read more</a> 
 							</div>
 						</div>						
+		</div>    <!--end row-->
 
-					
-
-
-
-					</div>    <!--end row-->
-				</div>				
+	</div>						
 
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script src="https://use.fontawesome.com/858e3e0509.js"></script>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
-		<script src="https://d3js.org/d3.v4.js"></script>
-		<script src="js/index.js"></script>
+		<div class="col-sm-12">
+			<hr>
+			<div class="col-sm-6" style="font-family: 'Roboto'; color:#7e7e7e; text-align: center">
+				<p>Stories and data by <b>Alan Hovorka</b><br>
+				Design by <b>Alan Hovorka</b>, <b>Tyson Bird</b> and <b>Stacie Kammerling</b><br>
+				Illustrations by <b>Stacie Kammerling</b> and <b>Alan Hovorka</b><br>
+				Code by <b>Alan Hovorka</b> and <b>Tyson Bird</b><br>
+				<a href="feedback.html" target="_blank">Submit feedback</a><br>
+				<a href="about.html" target="_blank">About the project</a><br> 
+				View the project on Github<br>
+				<a href="https://github.com/alanhovorka/relay" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+				</p>
+
+
+			</div>
+			<div class="col-sm-6" style="font-family:'Roboto'; color:#7e7e7e; text-align: center; margin-bottom:20px">
+				<br>
+				<p>All images used in this project were published in the public domain or under Creative Commons.</br>The work on this website is for noncommercial, educational purposes and is not associated with the International Olympic Committee or any Olympic properties.</p>
+			</div>			
+		</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/6bc5d83f8e.js"></script>
+	<script src="js/index.js"></script>
 		<!--Github directory: https://github.com/alanhovorka/relay-->
 		
 	</body>

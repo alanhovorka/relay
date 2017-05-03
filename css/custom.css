@@ -1,0 +1,87 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+video {
+	width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #FEBE10;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FEBE10;
+}
+
+a:active {
+  text-decoration: none;
+  color: #FEBE10;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #FEBE10;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #FEBE10;
+}
+
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.btn-success:focus,
+.btn-success.focus {
+  color: #fff;
+  background-color: #FEBE10;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #FEBE10;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #FEBE10;
+}
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  color: #fff;
+  background-color: #FEBE10;
+}
+
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success.focus {
+  background-color: #FEBE10;
+}
+
+.btn-success .badge {
+  color: white;
+  background-color: #FEBE10;
+}
