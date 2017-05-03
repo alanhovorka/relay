@@ -21,27 +21,29 @@ $(window).scroll(function(){
 
 $(function() {
   if ($(window).width() <= 599) {
-	$("video").attr("src", "media/cub.webm")
-	$("video").attr("poster", "");
+  	$("iframe").attr("src","https://gfycat.com/ifr/TenseFirmGrayling");
+  	$("video").css("display", "none");
+
+
   }
   else {
-	$("video").attr("src", "media/test.webm");
-	$("video").attr("poster", "");
-
+	$("video").attr("src", "media/torch_relay_graphic.webm");
+  	$("video").css("display", "inline");
+  	$("#vidj").css("display","none");
   }
 });
-
+/*
 $( window ).resize(function() {
   if ($(window).width() <= 599) {
-	$("video").attr("src", "media/cub.webm")
+	$("video").attr("src", "media/torch_relay_graphic.webm")
 	$("video").attr("poster", "");
   }
   else {
-	$("video").attr("src", "media/test.webm");
+	$("video").attr("src", "media/torch_relay_graphic.webm");
 	$("video").attr("poster", "");
   }
 });
-
+*/
 
 var videos = document.getElementsByTagName("video"),
 fraction = 0.7;

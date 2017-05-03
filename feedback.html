@@ -19,18 +19,30 @@
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
 
 		<link href="css/index.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">		
 	</head>
 	<body>
 
 		<div class="container">
 
+
 			<div class="row">
 
 				<div class="col-sm-10 col-sm-offset-1">
+					<div style="padding-top: 20px;">
+						<a href="index.html" class="btn btn-md btn-custom2 text-uppercase" target="_blank" style="color:white; margin-right: 10px; margin-bottom: 10px;" role="button">Home</a> 
+						<a href="relay_history.html" target="_blank" class="btn btn-md btn-custom2 text-uppercase" style="color:white; margin-right: 10px; margin-bottom: 10px;" role="button">A relay's legacy</a> 						
+						<a href="numbers.html" target="_blank" class="btn btn-md btn-custom2 text-uppercase" style="color:white; margin-right: 10px; margin-bottom: 10px;" role="button">Relays by the numbers</a> 
+						<a href="relay-and-gender.html" target="_blank" class="btn btn-md btn-custom2 text-uppercase" style="color:white; margin-right: 10px; margin-bottom: 10px;" role="button">Women and the relay</a> 
+						<a href="https://github.com/alanhovorka/relay/blob/master/torch_relay_data_version1_00.xlsx" target="_blank" class="btn btn-md btn-custom2 text-uppercase" style="color:white; margin-right: 10px; margin-bottom: 10px;" role="button">Get the data</a> 						
+						<a href="records.html" target="_blank" class="btn btn-md btn-custom2 text-uppercase" style="color:white; margin-right: 10px; margin-bottom: 10px;" role="button">Records</a> 												
+						<a href="about.html" target="_blank" class="btn btn-md btn-custom2 text-uppercase" style="color:white; margin-right: 10px; margin-bottom: 10px;" role="button">About the project</a> 
+					</div>	
+					<h1 style="font-family: 'Playfair Display', serif;">Submit feedback on this project</h1>
 
-					<h1>Contact form Tutorial from <a href="http://bootstrapious.com">Bootstrapious.com</a></h1>
+					<p class="lead" style="font-family: 'Playfair Display', serif;">See something wrong, got a question or just really like the work? Let me know!</p>
 
-					<p class="lead">This is a demo for our tutorial dedicated to crafting working Bootstrap contact form with PHP and AJAX background.</p>
+
 
 
 					<form id="contact-form" method="post" action="contact.php" role="form">
@@ -40,52 +52,54 @@
 						<div class="controls">
 
 							<div class="row">
-								<div class="col-md-6">
+								<div class="col-sm-6">
 									<div class="form-group">
-										<label for="form_name">Firstname *</label>
-										<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+										<label for="form_name">First name *</label>
+										<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="First name is required.">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
-								<div class="col-md-6">
+								<div class="col-sm-6">
 									<div class="form-group">
-										<label for="form_lastname">Lastname *</label>
-										<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+										<label for="form_lastname">Last name *</label>
+										<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Last name is required.">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-6">
+								<div class="col-sm-6">
 									<div class="form-group">
 										<label for="form_email">Email *</label>
 										<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="form_phone">Phone</label>
-										<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-12">
+								<div class="col-sm-12">
 									<div class="form-group">
 										<label for="form_message">Message *</label>
-										<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+										<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave me a message."></textarea>
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
-								<div class="col-md-12">
-									<input type="submit" class="btn btn-success btn-send" value="Send message">
+								
+								<div class="col-sm-12">
+
+										<div class="form-group">
+										<div class="g-recaptcha" data-sitekey="6LfZwh8UAAAAAOkR_X_rMVm0rRPeTMG6KnBYB6hq"></div>
+										</div>
+
+								</div>
+
+								<div class="col-sm-12">
+									<input type="submit" class="btn btn-custom2" value="Send message">
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-12">
-									<p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+								<div class="col-sm-12">
+									<p class="text-muted"><strong>*</strong> Required fields.</p>
 								</div>
 							</div>
 						</div>
@@ -101,7 +115,7 @@
 		<div class="col-sm-8 col-sm-offset-2">
 			<hr>
 			<div class="col-sm-5" style="font-family: 'Roboto'; color:#7e7e7e; text-align: center">
-				<p>Stories by <b>Alan Hovorka</b><br>
+				<p>Stories and data by <b>Alan Hovorka</b><br>
 				Design by <b>Alan Hovorka</b>, <b>Tyson Bird</b> and <b>Stacie Kammerling</b><br>
 				Illustrations by <b>Stacie Kammerling</b> and <b>Alan Hovorka</b><br>
 				Code by <b>Alan Hovorka</b> and <b>Tyson Bird</b><br>
@@ -123,7 +137,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://use.fontawesome.com/6bc5d83f8e.js"></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<script src="js/validator.js"></script>
 		<script src="js/contact.js"></script>
+						<!--Github directory: https://github.com/alanhovorka/relay-->
+
 	</body>
 </html>
