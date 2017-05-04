@@ -1,0 +1,17 @@
+
+			@media screen and (max-width:991px) {
+				#g-RelayGender-Artboard_3 {
+					display:none;
+				}
+				#g-RelayGender-Artboard_1 {
+					display:block;
+				}
+			}
+			@media screen and (min-width:991px) {
+				#g-RelayGender-Artboard_1 {
+					display:none;
+				}
+				#g-RelayGender-Artboard_3 {
+					display:block;
+				}
+			}
