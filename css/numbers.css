@@ -1,0 +1,179 @@
+@media screen and (max-width:991px) {
+				#g-RelayGender-Artboard_3 {
+					display:none;
+				}
+				#g-numbers_page_mobile-Artboard_1, #g-numbers_page_mobile-Artboard_2, #g-numbers_page_mobile-Artboard_3 {
+					display:block;
+				}
+			}
+@media screen and (min-width:991px) {
+				#g-numbers_page_mobile-Artboard_1, #g-numbers_page_mobile-Artboard_2, #g-numbers_page_mobile-Artboard_3 {
+					display:none;
+				}
+				#g-RelayGender-Artboard_3 {
+					display:block;
+				}
+			}
+
+/*Mobile artbord 1*/
+.g-artboard {
+			margin:0 auto;
+		}			
+
+#g-numbers_page_mobile-Artboard_1{
+				position:relative;
+				overflow:hidden;
+				width:300px;
+			}
+.g-aiAbs{
+				position:absolute;
+			}
+.g-aiImg{
+				display:block;
+				width:100% !important;
+			}
+#g-numbers_page_mobile-Artboard_1 p{
+				font-family:nyt-franklin,arial,helvetica,sans-serif;
+				font-size:13px;
+				line-height:18px;
+				margin:0;
+			}
+#g-numbers_page_mobile-Artboard_1 .g-aiPstyle0 {
+				font-family: 'Roboto', sans-serif;
+				font-size:24px;
+				line-height:29px;
+				font-weight:700;
+				color:#000000;
+			}
+#g-numbers_page_mobile-Artboard_1 .g-aiPstyle1 {
+				font-family: 'Roboto', sans-serif;
+				font-size:12px;
+				line-height:14px;
+				font-weight:400;
+				color:#000000;
+			}
+.g-aiPtransformed p { white-space: nowrap; }
+
+
+/*Mobile artbord 2*/
+#g-numbers_page_mobile-Artboard_2{
+				position:relative;
+				overflow:hidden;
+				width:300px;
+			}
+.g-aiAbs{
+				position:absolute;
+			}
+.g-aiImg{
+				display:block;
+				width:100% !important;
+			}
+#g-numbers_page_mobile-Artboard_2 p{
+				font-family:nyt-franklin,arial,helvetica,sans-serif;
+				font-size:13px;
+				line-height:18px;
+				margin:0;
+			}
+#g-numbers_page_mobile-Artboard_2 .g-aiPstyle0 {
+				font-family: 'Playfair Display', serif;
+				font-size:28px;
+				line-height:34px;
+				font-weight:700;
+				color:#000000;
+			}
+#g-numbers_page_mobile-Artboard_2 .g-aiPstyle1 {
+				font-family: 'Roboto', sans-serif;
+				font-size:12px;
+				line-height:14px;
+				font-weight:400;
+				color:#000000;
+			}
+#g-numbers_page_mobile-Artboard_2 .g-aiPstyle2 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:400;
+				text-align:right;
+				color:#000000;
+			}
+#g-numbers_page_mobile-Artboard_2 .g-aiPstyle3 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:700;
+				color:#000000;
+			}
+#g-numbers_page_mobile-Artboard_2 .g-aiPstyle4 {
+				font-family: 'Roboto', sans-serif;
+				font-size:8px;
+				line-height:9px;
+				font-weight:400;
+				color:#000000;
+			}
+#g-numbers_page_mobile-Artboard_2 .g-aiPstyle5 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:400;
+				text-align:center;
+				color:#000000;
+			}
+#g-numbers_page_mobile-Artboard_2 .g-aiPstyle6 {
+				font-family: 'Roboto', sans-serif;
+				font-size:10px;
+				line-height:12px;
+				font-weight:400;
+				color:#000000;
+			}
+#g-numbers_page_mobile-Artboard_2 .g-aiPstyle7 {
+				font-family: 'Roboto', sans-serif;
+				font-size:8px;
+				line-height:10px;
+				font-weight:400;
+				color:#000000;
+			}
+.g-aiPtransformed p { white-space: nowrap; }
+
+
+/*Mobile artbord 3*/			
+
+#g-numbers_page_mobile-Artboard_3{
+				position:relative;
+				overflow:hidden;
+				width:300px;
+			}
+.g-aiAbs{
+				position:absolute;
+			}
+.g-aiImg{
+				display:block;
+				width:100% !important;
+			}
+#g-numbers_page_mobile-Artboard_3 p{
+				font-family:nyt-franklin,arial,helvetica,sans-serif;
+				font-size:13px;
+				line-height:18px;
+				margin:0;
+			}
+#g-numbers_page_mobile-Artboard_3 .g-aiPstyle0 {
+				font-family: 'Playfair Display', serif;
+				font-size:28px;
+				line-height:34px;
+				font-weight:700;
+				color:#000000;
+			}
+#g-numbers_page_mobile-Artboard_3 .g-aiPstyle1 {
+				font-family: 'Roboto', sans-serif;
+				font-size:12px;
+				line-height:14px;
+				font-weight:400;
+				color:#000000;
+			}
+#g-numbers_page_mobile-Artboard_3 .g-aiPstyle2 {
+				font-family: 'Roboto', sans-serif;
+				font-size:24px;
+				line-height:29px;
+				font-weight:700;
+				color:#000000;
+			}
+.g-aiPtransformed p { white-space: nowrap; }
